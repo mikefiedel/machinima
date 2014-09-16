@@ -1,0 +1,83 @@
+Log file open, 09/16/14 16:15:05
+LogInit:Display: Running engine for game: MyProject
+LogInit: Version: 4.4.1-2270799+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Aug 25 2014 14:19:12
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.16-22.15.05:444][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.16-22.15.05:470][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.16-22.15.05:477][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.16-22.15.05:485][  0]LogInit: Object subsystem initialized
+[2014.09.16-22.15.05:487][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.16-22.15.05:487][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.16-22.15.05:490][  0]LogInit: Computer: TCPC-33
+[2014.09.16-22.15.05:490][  0]LogInit: User: u0668625
+[2014.09.16-22.15.05:491][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.16-22.15.05:491][  0]LogInit: High frequency timer resolution =3.906357 MHz
+[2014.09.16-22.15.05:491][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.09.16-22.15.05:491][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.16-22.15.05:491][  0]LogMemory: Process Physical Memory: 60.99 MB used, 60.99 MB peak
+[2014.09.16-22.15.05:491][  0]LogMemory: Process Virtual Memory: 38.23 MB used, 38.23 MB peak
+[2014.09.16-22.15.05:491][  0]LogMemory: Physical Memory: 2638.88 MB used, 8173.54 MB total
+[2014.09.16-22.15.05:491][  0]LogMemory: Virtual Memory: 256.78 MB used, 8388608.00 MB total
+[2014.09.16-22.15.05:519][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 630 (Feature Level 11_0)
+[2014.09.16-22.15.05:519][  0]LogD3D11RHI: Adapter has 978MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2014.09.16-22.15.05:519][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.16-22.15.05:528][  0]LogRHI: Texture pool is 684 MB (70% of 978 MB)
+[2014.09.16-22.15.05:536][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.16-22.15.05:649][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.16-22.15.07:048][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.16-22.15.07:380][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.16-22.15.07:413][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.16-22.15.07:491][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/u0668625/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.16-22.15.07:491][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/u0668625/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.09.16-22.15.07:491][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u0668625/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.16-22.15.07:491][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.16-22.15.07:507][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.16-22.15.07:519][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u0668625/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.09.16-22.15.07:673][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.16-22.15.07:673][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.16-22.15.08:028][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.16-22.15.08:745][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1968_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1ddc_0///////STATCAT_Advanced////
+[2014.09.16-22.15.08:745][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.16-22.15.08:837][  0]SourceControl: Info Source control is disabled
+[2014.09.16-22.15.08:837][  0]SourceControl: Info Source control is disabled
+[2014.09.16-22.15.08:841][  0]SourceControl: Info Source control is disabled
+[2014.09.16-22.15.08:978][  0]BlueprintLog: New page: Editor Load
+[2014.09.16-22.15.09:051][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.09.16-22.15.09:051][  0]LogUObjectAllocator: 4218648 out of 0 bytes used by permanent object pool.
+[2014.09.16-22.15.09:212][  0]LogEngine: Initializing Engine...
+[2014.09.16-22.15.09:310][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (4- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.09.16-22.15.09:341][  0]LogInit: FAudioDevice initialized.
+[2014.09.16-22.15.09:354][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.09.16-22.15.09:388][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/u0668625/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.16-22.15.09:398][  0]LogInit: Texture streaming: Enabled
+[2014.09.16-22.15.09:422][  0]LogInit: Transaction tracking system initialized
+[2014.09.16-22.15.09:505][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2014.09.16-22.15.09:890][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.16-22.15.10:165][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.16-22.15.10:267][  0]LogConsoleResponse:Display: 
+[2014.09.16-22.15.10:404][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_20e0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1ddc_0///////STATCAT_Advanced////
+[2014.09.16-22.15.10:404][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1ed8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1ddc_0///////STATCAT_Advanced////
+[2014.09.16-22.15.10:404][  0]SourceControl: Info Source control is disabled
+[2014.09.16-22.15.10:404][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1
+[2014.09.16-22.15.10:404][  0]LightingResults: New page: Lighting Build
+[2014.09.16-22.15.10:411][  0]MapCheck: New page: Map Check
+[2014.09.16-22.15.10:411][  0]LightingResults: New page: Lighting Build
+[2014.09.16-22.15.10:424][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011189300
+[2014.09.16-22.15.10:584][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.16-22.15.10:584][  0]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.16-22.15.10:584][  0]Cmd: MAP CHECKDEP
+[2014.09.16-22.15.10:584][  0]MapCheck: New page: Untitled_1 - Sep 16, 2014, 10:15:10 AM
+[2014.09.16-22.15.10:636][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [52.293ms] ==========
+[2014.09.16-22.15.10:636][  0]LogFileHelpers: Loading map 'Template_Default' took 0.233
+[2014.09.16-22.15.10:715][  0]LogCollectionManager: Loaded 0 collections in 0.000834 seconds
+[2014.09.16-22.15.10:777][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.16-22.15.10:820][  0]LogLoad: Full Startup: 6.99 seconds (BP compile: 0.06 seconds)
+[2014.09.16-22.15.11:005][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x896.
+[2014.09.16-22.15.12:194][ 32]LogAssetRegistry: Asset discovery search completed in 2.6992 seconds
+[2014.09.16-22.28.13:182][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test" FILE="../../../../../../Users/u0668625/Documents/Unreal Projects/MyProject/Content/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
