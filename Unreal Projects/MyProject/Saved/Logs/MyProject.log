@@ -1,167 +1,1127 @@
-Log file open, 09/16/14 16:30:32
+Log file open, 09/20/14 22:33:46
 LogInit:Display: Running engine for game: MyProject
-LogInit: Version: 4.4.1-2270799+++depot+UE4-Releases+4.4
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
 LogInit: API Version: 2255576
-LogInit: Compiled (64-bit): Aug 25 2014 14:19:12
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.4
 LogInit: Command line: 
-LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Base directory: D:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.09.16-22.30.32:557][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.09.16-22.30.32:583][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.09.16-22.30.32:590][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.09.16-22.30.32:598][  0]LogInit: Object subsystem initialized
-[2014.09.16-22.30.32:600][  0]LogInit: Selected Device Profile: [Windows]
-[2014.09.16-22.30.32:600][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.09.16-22.30.32:604][  0]LogInit: Computer: TCPC-33
-[2014.09.16-22.30.32:604][  0]LogInit: User: u0668625
-[2014.09.16-22.30.32:605][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.09.16-22.30.32:605][  0]LogInit: High frequency timer resolution =3.906357 MHz
-[2014.09.16-22.30.32:605][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
-[2014.09.16-22.30.32:606][  0]LogMemory: Platform Memory Stats for Windows
-[2014.09.16-22.30.32:606][  0]LogMemory: Process Physical Memory: 62.34 MB used, 62.34 MB peak
-[2014.09.16-22.30.32:606][  0]LogMemory: Process Virtual Memory: 38.23 MB used, 38.23 MB peak
-[2014.09.16-22.30.32:606][  0]LogMemory: Physical Memory: 2894.48 MB used, 8173.54 MB total
-[2014.09.16-22.30.32:606][  0]LogMemory: Virtual Memory: 256.78 MB used, 8388608.00 MB total
-[2014.09.16-22.30.32:634][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 630 (Feature Level 11_0)
-[2014.09.16-22.30.32:634][  0]LogD3D11RHI: Adapter has 978MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
-[2014.09.16-22.30.32:634][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.09.16-22.30.32:640][  0]LogRHI: Texture pool is 684 MB (70% of 978 MB)
-[2014.09.16-22.30.32:649][  0]LogD3D11RHI: Async texture creation enabled
-[2014.09.16-22.30.32:760][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.09.16-22.30.34:082][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.16-22.30.34:417][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.16-22.30.34:450][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.09.16-22.30.34:520][  0]LogDerivedDataCache: Loaded boot cache 0.07s 39MB C:/Users/u0668625/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.09.16-22.30.34:520][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/u0668625/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
-[2014.09.16-22.30.34:520][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u0668625/Desktop/machinima/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.09.16-22.30.34:520][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.09.16-22.30.34:536][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.09.16-22.30.34:547][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u0668625/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
-[2014.09.16-22.30.34:699][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.09.16-22.30.34:699][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.09.16-22.30.35:051][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.09.16-22.30.35:720][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2528_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2120_0///////STATCAT_Advanced////
-[2014.09.16-22.30.35:720][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.09.16-22.30.35:809][  0]SourceControl: Info Source control is disabled
-[2014.09.16-22.30.35:809][  0]SourceControl: Info Source control is disabled
-[2014.09.16-22.30.35:814][  0]SourceControl: Info Source control is disabled
-[2014.09.16-22.30.35:951][  0]BlueprintLog: New page: Editor Load
-[2014.09.16-22.30.36:023][  0]LogObj: 21438 objects as part of root set at end of initial load.
-[2014.09.16-22.30.36:023][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
-[2014.09.16-22.30.36:183][  0]LogEngine: Initializing Engine...
-[2014.09.16-22.30.36:282][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (4- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2014.09.16-22.30.36:311][  0]LogInit: FAudioDevice initialized.
-[2014.09.16-22.30.36:325][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.09.16-22.30.36:361][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/u0668625/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.09.16-22.30.36:371][  0]LogInit: Texture streaming: Enabled
-[2014.09.16-22.30.36:396][  0]LogInit: Transaction tracking system initialized
-[2014.09.16-22.30.36:480][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
-[2014.09.16-22.30.36:853][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.16-22.30.37:116][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.16-22.30.37:211][  0]LogConsoleResponse:Display: 
-[2014.09.16-22.30.37:341][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1260_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2120_0///////STATCAT_Advanced////
-[2014.09.16-22.30.37:341][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1024_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2120_0///////STATCAT_Advanced////
-[2014.09.16-22.30.37:341][  0]SourceControl: Info Source control is disabled
-[2014.09.16-22.30.37:341][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1
-[2014.09.16-22.30.37:342][  0]LightingResults: New page: Lighting Build
-[2014.09.16-22.30.37:348][  0]MapCheck: New page: Map Check
-[2014.09.16-22.30.37:348][  0]LightingResults: New page: Lighting Build
-[2014.09.16-22.30.37:361][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E899300
-[2014.09.16-22.30.37:518][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.09.16-22.30.37:518][  0]LogAIModule: Creating AISystem for world Template_Default
-[2014.09.16-22.30.37:518][  0]Cmd: MAP CHECKDEP
-[2014.09.16-22.30.37:518][  0]MapCheck: New page: Untitled_1 - Sep 16, 2014, 10:30:37 AM
-[2014.09.16-22.30.37:565][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [47.091ms] ==========
-[2014.09.16-22.30.37:565][  0]LogFileHelpers: Loading map 'Template_Default' took 0.224
-[2014.09.16-22.30.37:652][  0]LogCollectionManager: Loaded 0 collections in 0.000828 seconds
-[2014.09.16-22.30.37:715][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.09.16-22.30.37:759][  0]LogLoad: Full Startup: 6.85 seconds (BP compile: 0.06 seconds)
-[2014.09.16-22.30.37:943][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x896.
-[2014.09.16-22.30.38:161][  1]LogAssetRegistry: Asset discovery search completed in 1.6912 seconds
-[2014.09.16-22.47.06:544][386]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
-[2014.09.16-22.47.11:343][674]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
-[2014.09.16-22.48.37:293][325]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder/NewFolder'
-[2014.09.16-22.48.46:180][865]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder/Object1'
-[2014.09.16-22.48.49:446][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
-[2014.09.16-22.48.53:708][512]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2014.09.16-22.48.54:187][546]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
-[2014.09.16-22.48.55:290][675]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2014.09.16-22.48.58:072][952]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
-[2014.09.16-22.49.01:590][254]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2014.09.16-22.49.02:227][296]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
-[2014.09.16-22.49.02:571][323]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder/Object1'
-[2014.09.16-22.49.03:715][420]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
-[2014.09.16-22.49.06:881][784]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.09.16-22.49.07:652][834]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2014.09.16-22.49.09:085][989]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
-[2014.09.16-22.49.11:738][151]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1'
-[2014.09.16-22.49.13:408][294]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/NewFolder'
-[2014.09.16-22.49.16:221][466]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1'
-[2014.09.16-22.49.18:587][656]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/NewFolder'
-[2014.09.16-22.50.25:154][693]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Materials'
-[2014.09.16-22.50.26:264][762]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1'
-[2014.09.16-22.50.30:465][257]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/NewFolder'
-[2014.09.16-22.50.33:431][438]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Animations'
-[2014.09.16-22.50.34:756][522]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1'
-[2014.09.16-22.50.35:527][602]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/NewFolder'
-[2014.09.16-22.50.38:229][767]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Meshes'
-[2014.09.16-22.50.39:390][840]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1'
-[2014.09.16-22.50.40:010][909]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/NewFolder'
-[2014.09.16-22.50.49:561][489]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Textures'
-[2014.09.16-22.50.50:375][540]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1'
-[2014.09.16-22.50.50:853][593]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/NewFolder'
-[2014.09.16-22.50.53:093][730]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Particles'
-[2014.09.16-22.50.54:427][813]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1'
-[2014.09.16-22.50.59:394][336]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Animations'
-[2014.09.16-22.51.39:332][839]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.09.16-22.51.39:332][839]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Animations'
-[2014.09.16-22.51.43:347][159]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Materials'
-[2014.09.16-22.51.45:975][281]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.09.16-22.51.45:975][281]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Materials'
-[2014.09.16-22.51.46:857][354]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Meshes'
-[2014.09.16-22.51.47:581][407]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.014
-[2014.09.16-22.51.47:587][407]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Scene1/Object1/Materials/placeholder] ([1] browsable assets)...
-[2014.09.16-22.51.47:603][407]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scene1/Object1/Materials/placeholder]
-[2014.09.16-22.51.47:632][407]LogSavePackage: Save=12.895135ms
-[2014.09.16-22.51.47:632][407]LogSavePackage: Moving '../../../../../../Users/u0668625/Desktop/machinima/Unreal Projects/MyProject/Saved/placeholder_Auto1B59EA3B7465AA23FA477D1BF7076C3F6.tmp' to '../../../../../../Users/u0668625/Desktop/machinima/Unreal Projects/MyProject/Saved/Autosaves/Game/Scene1/Object1/Materials/placeholder_Auto1.uasset'
-[2014.09.16-22.51.47:641][407]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Scene1/Object1/Animations/placeholder] ([1] browsable assets)...
-[2014.09.16-22.51.47:654][407]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scene1/Object1/Animations/placeholder]
-[2014.09.16-22.51.47:681][407]LogSavePackage: Save=10.388964ms
-[2014.09.16-22.51.47:681][407]LogSavePackage: Moving '../../../../../../Users/u0668625/Desktop/machinima/Unreal Projects/MyProject/Saved/placeholder_Auto1F5C779EC48D323E2910C8BA0B8D79D1A.tmp' to '../../../../../../Users/u0668625/Desktop/machinima/Unreal Projects/MyProject/Saved/Autosaves/Game/Scene1/Object1/Animations/placeholder_Auto1.uasset'
-[2014.09.16-22.51.47:684][407]LogFileHelpers: Auto-saving content packages took 0.103
-[2014.09.16-22.51.49:240][464]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.09.16-22.51.49:240][464]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Meshes'
-[2014.09.16-22.51.50:953][604]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Particles'
-[2014.09.16-22.51.53:678][732]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.09.16-22.51.53:678][732]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Particles'
-[2014.09.16-22.51.54:417][794]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Textures'
-[2014.09.16-22.51.56:670][907]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.09.16-22.51.56:670][907]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Textures'
-[2014.09.16-22.52.52:421][201]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2014.09.16-22.52.53:228][287]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
-[2014.09.16-22.52.58:237][674]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal'
-[2014.09.16-22.53.00:240][863]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1'
-[2014.09.16-22.53.01:828][996]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal'
-[2014.09.16-22.53.02:666][ 92]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/NewFolder'
-[2014.09.16-22.53.04:957][268]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1'
-[2014.09.16-22.53.10:242][805]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1/NewFolder'
-[2014.09.16-22.53.13:156][ 29]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1/Animations'
-[2014.09.16-22.53.16:317][197]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1'
-[2014.09.16-22.53.16:907][263]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1/NewFolder'
-[2014.09.16-22.53.19:216][442]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1/Materials'
-[2014.09.16-22.53.20:371][532]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1'
-[2014.09.16-22.53.21:398][639]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1/NewFolder'
-[2014.09.16-22.53.22:981][761]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1/Meshes'
-[2014.09.16-22.53.23:787][825]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1'
-[2014.09.16-22.53.25:070][962]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1/NewFolder'
-[2014.09.16-22.53.27:738][168]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1/Particles'
-[2014.09.16-22.53.28:990][267]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1'
-[2014.09.16-22.53.29:598][332]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1/NewFolder'
-[2014.09.16-22.53.31:161][451]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1/Textures'
-[2014.09.16-22.53.32:238][535]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Animations'
-[2014.09.16-22.53.33:858][667]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Universal/Object1/Animations'
-[2014.09.16-22.53.35:861][828]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1/Animations'
-[2014.09.16-22.53.50:062][187]LogSavePackage: Save=10.996179ms
-[2014.09.16-22.53.50:062][187]LogSavePackage: Moving '../../../../../../Users/u0668625/Desktop/machinima/Unreal Projects/MyProject/Saved/placeholderCF70A1214DBE839A444557A84FE2E845.tmp' to '../../../../../../U
+[2014.09.21-04.33.46:030][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.21-04.33.46:056][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.21-04.33.46:063][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.21-04.33.46:070][  0]LogInit: Object subsystem initialized
+[2014.09.21-04.33.46:072][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.21-04.33.46:072][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.21-04.33.46:076][  0]LogInit: Computer: DRAGONRIDER
+[2014.09.21-04.33.46:077][  0]LogInit: User: Mike
+[2014.09.21-04.33.46:077][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.21-04.33.46:077][  0]LogInit: High frequency timer resolution =3.215400 MHz
+[2014.09.21-04.33.46:077][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.09.21-04.33.46:077][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.21-04.33.46:077][  0]LogMemory: Process Physical Memory: 61.15 MB used, 61.15 MB peak
+[2014.09.21-04.33.46:077][  0]LogMemory: Process Virtual Memory: 37.18 MB used, 37.18 MB peak
+[2014.09.21-04.33.46:077][  0]LogMemory: Physical Memory: 4069.23 MB used, 8174.70 MB total
+[2014.09.21-04.33.46:078][  0]LogMemory: Virtual Memory: 259.88 MB used, 8388608.00 MB total
+[2014.09.21-04.33.46:099][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6900 Series (Feature Level 11_0)
+[2014.09.21-04.33.46:099][  0]LogD3D11RHI: Adapter has 2035MB of dedicated video memory, 0MB of dedicated system memory, and 3831MB of shared system memory, 2 output[s]
+[2014.09.21-04.33.46:099][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.21-04.33.46:104][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.09.21-04.33.46:109][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.09.21-04.33.46:201][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.21-04.33.47:503][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.21-04.33.47:823][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.21-04.33.47:853][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.21-04.33.47:896][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Mike/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.21-04.33.47:896][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mike/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.09.21-04.33.47:896][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.21-04.33.47:896][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.21-04.33.47:914][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.21-04.33.47:927][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mike/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.09.21-04.33.48:061][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.21-04.33.48:061][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.21-04.33.48:339][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.21-04.33.48:936][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1bb4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_148_0///////STATCAT_Advanced////
+[2014.09.21-04.33.48:936][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.21-04.33.49:023][  0]SourceControl: Info Source control is disabled
+[2014.09.21-04.33.49:023][  0]SourceControl: Info Source control is disabled
+[2014.09.21-04.33.49:027][  0]SourceControl: Info Source control is disabled
+[2014.09.21-04.33.49:154][  0]BlueprintLog: New page: Editor Load
+[2014.09.21-04.33.49:216][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.09.21-04.33.49:216][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.09.21-04.33.49:384][  0]LogEngine: Initializing Engine...
+[2014.09.21-04.33.49:473][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.09.21-04.33.49:480][  0]LogInit: FAudioDevice initialized.
+[2014.09.21-04.33.49:491][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.09.21-04.33.49:513][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Mike/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.21-04.33.49:520][  0]LogInit: Texture streaming: Enabled
+[2014.09.21-04.33.49:541][  0]LogInit: Transaction tracking system initialized
+[2014.09.21-04.33.49:616][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2014.09.21-04.33.49:970][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.21-04.33.50:238][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.21-04.33.50:320][  0]LogConsoleResponse:Display: 
+[2014.09.21-04.33.50:435][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1280_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_148_0///////STATCAT_Advanced////
+[2014.09.21-04.33.50:435][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_18cc_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_148_0///////STATCAT_Advanced////
+[2014.09.21-04.33.50:435][  0]SourceControl: Info Source control is disabled
+[2014.09.21-04.33.50:436][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1
+[2014.09.21-04.33.50:436][  0]LightingResults: New page: Lighting Build
+[2014.09.21-04.33.50:441][  0]MapCheck: New page: Map Check
+[2014.09.21-04.33.50:441][  0]LightingResults: New page: Lighting Build
+[2014.09.21-04.33.50:453][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000129B1300
+[2014.09.21-04.33.50:603][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.21-04.33.50:603][  0]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.21-04.33.50:604][  0]Cmd: MAP CHECKDEP
+[2014.09.21-04.33.50:604][  0]MapCheck: New page: Untitled_1 - Sep 20, 2014, 4:33:50 PM
+[2014.09.21-04.33.50:641][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [36.818ms] ==========
+[2014.09.21-04.33.50:641][  0]LogFileHelpers: Loading map 'Template_Default' took 0.205
+[2014.09.21-04.33.50:905][  0]LogCollectionManager: Loaded 0 collections in 0.001590 seconds
+[2014.09.21-04.33.51:255][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.21-04.33.51:371][  0]LogLoad: Full Startup: 6.98 seconds (BP compile: 0.06 seconds)
+[2014.09.21-04.33.51:609][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x896.
+[2014.09.21-04.33.51:860][  1]LogAssetRegistry: Asset discovery search completed in 2.2538 seconds
+[2014.09.21-04.34.40:324][216]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2014.09.21-04.38.16:810][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:810][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.38.16:811][518]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.39.48:903][  6]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.39.48:903][  6]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.39.48:903][  6]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.39.48:903][  6]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.39.48:903][  6]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.39.48:903][  6]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.39.48:903][  6]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.39.48:903][  6]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.39.48:903][  6]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.40.25:332][405]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.40.25:332][405]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.44.29:730][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.09.21-04.44.29:777][362]LogSavePackage: Save=32.345276ms
+[2014.09.21-04.44.29:777][362]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/Untitled_1_Auto10587B27B49A6FAB657DD4EBD29EC774A.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2014.09.21-04.44.29:782][362]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.108
+[2014.09.21-04.44.29:782][362]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.108
+[2014.09.21-04.44.32:884][572]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-04.44.32:886][572]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.09.21-04.44.32:970][572]LogPlayLevel: PIE:  Blueprint regeneration took 86 ms (1 blueprints)
+[2014.09.21-04.44.32:970][572]PIE: New page: SIE session: Untitled_1 (Sep 20, 2014, 4:44:32 PM)
+[2014.09.21-04.44.32:972][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001824s)
+[2014.09.21-04.44.32:973][572]LogPlayLevel: PIE: World Init took: (0.000555s)
+[2014.09.21-04.44.32:973][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.002715s)
+[2014.09.21-04.44.33:029][572]LogWorld: Game class is 'GameMode'
+[2014.09.21-04.44.33:091][572]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.21-04.44.33:093][572]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.09.20-22.44.33
+[2014.09.21-04.44.33:093][572]LogWorld: Bringing up level for play took: 0.001656
+[2014.09.21-04.44.33:155][572]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.266
+[2014.09.21-04.44.33:543][573]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.09.21-04.44.35:967][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000194F9EE0
+[2014.09.21-04.44.36:936][791]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-04.44.36:938][791]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.09.21-04.44.36:989][791]LogPlayLevel: PIE:  Blueprint regeneration took 52 ms (1 blueprints)
+[2014.09.21-04.44.36:989][791]PIE: New page: SIE session: Untitled_1 (Sep 20, 2014, 4:44:36 PM)
+[2014.09.21-04.44.36:991][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001513s)
+[2014.09.21-04.44.36:992][791]LogPlayLevel: PIE: World Init took: (0.001404s)
+[2014.09.21-04.44.36:992][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003124s)
+[2014.09.21-04.44.37:016][791]LogWorld: Game class is 'GameMode'
+[2014.09.21-04.44.37:018][791]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.21-04.44.37:018][791]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.09.20-22.44.37
+[2014.09.21-04.44.37:018][791]LogWorld: Bringing up level for play took: 0.000841
+[2014.09.21-04.44.37:019][791]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.87
+[2014.09.21-04.44.38:273][857]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017145B20
+[2014.09.21-04.44.39:205][921]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-04.44.39:208][921]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.09.21-04.44.39:263][921]LogPlayLevel: PIE:  Blueprint regeneration took 57 ms (1 blueprints)
+[2014.09.21-04.44.39:263][921]PIE: New page: PIE session: Untitled_1 (Sep 20, 2014, 4:44:39 PM)
+[2014.09.21-04.44.39:265][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001636s)
+[2014.09.21-04.44.39:265][921]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2014.09.21-04.44.39:265][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.002382s)
+[2014.09.21-04.44.39:291][921]LogWorld: Game class is 'GameMode'
+[2014.09.21-04.44.39:293][921]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.21-04.44.39:293][921]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.09.20-22.44.39
+[2014.09.21-04.44.39:293][921]LogWorld: Bringing up level for play took: 0.000849
+[2014.09.21-04.44.39:294][921]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.596
+[2014.09.21-04.44.44:477][346]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017145DA0
+[2014.09.21-04.46.17:132][ 95]BlueprintLog: New page: Compile Untitled
+[2014.09.21-04.46.17:183][ 95]BlueprintEditorCompileResults: Info [0752.74] Compile of Untitled successful! [in 0 ms]
+[2014.09.21-04.46.20:894][357]BlueprintLog: New page: Compile Untitled
+[2014.09.21-04.46.20:952][357]BlueprintEditorCompileResults: Info [0756.50] Compile of Untitled successful! [in 1 ms]
+[2014.09.21-04.46.21:895][419]BlueprintLog: New page: Compile Untitled
+[2014.09.21-04.46.21:957][419]BlueprintEditorCompileResults: Info [0757.50] Compile of Untitled successful! [in 0 ms]
+[2014.09.21-04.46.24:326][589]BlueprintLog: New page: Compile Untitled
+[2014.09.21-04.46.24:386][589]BlueprintEditorCompileResults: Info [0759.93] Compile of Untitled successful! [in 1 ms]
+[2014.09.21-04.46.27:423][800]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-04.46.27:425][800]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.09.21-04.46.27:483][800]LogPlayLevel: PIE:  Blueprint regeneration took 59 ms (1 blueprints)
+[2014.09.21-04.46.27:483][800]PIE: New page: SIE session: Untitled_1 (Sep 20, 2014, 4:46:27 PM)
+[2014.09.21-04.46.27:485][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001941s)
+[2014.09.21-04.46.27:486][800]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2014.09.21-04.46.27:486][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.002685s)
+[2014.09.21-04.46.27:512][800]LogWorld: Game class is 'GameMode'
+[2014.09.21-04.46.27:514][800]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.21-04.46.27:514][800]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.09.20-22.46.27
+[2014.09.21-04.46.27:515][800]LogWorld: Bringing up level for play took: 0.000865
+[2014.09.21-04.46.27:515][800]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.376
+[2014.09.21-04.46.29:584][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D76A7A0
+[2014.09.21-04.46.56:097][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-04.46.56:180][767]LogSavePackage: Save=51.981712ms
+[2014.09.21-04.46.56:180][767]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggleF87426C444692EFE71A094B7CC9B136B.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-04.46.56:202][767]LogFileHelpers: Saving map 'LightToggle' took 0.632
+[2014.09.21-04.49.44:143][996]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight1)
+[2014.09.21-04.49.44:767][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-04.49.45:342][ 78]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight1)
+[2014.09.21-04.50.33:965][966]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-04.50.33:967][966]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-04.50.34:045][966]LogPlayLevel: PIE:  Blueprint regeneration took 79 ms (1 blueprints)
+[2014.09.21-04.50.34:045][966]PIE: New page: SIE session: LightToggle (Sep 20, 2014, 4:50:34 PM)
+[2014.09.21-04.50.34:047][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001656s)
+[2014.09.21-04.50.34:047][966]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2014.09.21-04.50.34:047][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.002413s)
+[2014.09.21-04.50.34:076][966]LogWorld: Game class is 'GameMode'
+[2014.09.21-04.50.34:078][966]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-04.50.34:078][966]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-22.50.34
+[2014.09.21-04.50.34:079][966]LogWorld: Bringing up level for play took: 0.000880
+[2014.09.21-04.50.34:079][966]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.184
+[2014.09.21-04.50.39:851][344]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017C43560
+[2014.09.21-04.50.59:789][881]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.09.21-04.50.59:790][881]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.21-04.51.22:772][770]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.51.22:772][770]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.51.27:974][174]BlueprintLog: New page: Compile PointLight1_Blueprint
+[2014.09.21-04.51.27:977][174]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection
+[2014.09.21-04.51.27:983][174]LogBlueprint:Warning: [compiler] Warning [1063.58] Compile of PointLight1_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 6 ms]
+[2014.09.21-04.51.28:159][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DB076A0
+[2014.09.21-04.51.28:171][174]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection
+[2014.09.21-04.51.28:171][174]BlueprintEditorCompileResults:Warning: Warning [1063.58] Compile of PointLight1_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 6 ms]
+[2014.09.21-04.52.43:929][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-04.52.45:483][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-04.52.45:980][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-04.52.46:559][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-04.52.46:880][ 68]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-04.52.47:696][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-04.52.48:085][145]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-04.52.48:721][187]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.21-04.52.49:230][222]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume1)
+[2014.09.21-04.54.19:170][161]LogEditorViewport: Clicking on Actor (LMB): PointLight1_Blueprint_C (PointLight1_Blueprint)
+[2014.09.21-04.54.29:179][846]LogEditorViewport: Clicking on Actor (LMB): PointLight1_Blueprint_C (PointLight1_Blueprint)
+[2014.09.21-04.54.29:802][886]LogEditorViewport: Clicking on Actor (LMB): PointLight1_Blueprint_C (PointLight1_Blueprint)
+[2014.09.21-04.54.48:983][189]LogEditorTransaction: Undo Rename Actor
+[2014.09.21-04.54.49:456][205]LogEditorTransaction: Undo Clicking on Actors
+[2014.09.21-04.54.51:971][374]LogEditorTransaction: Undo Clicking on Actors
+[2014.09.21-04.55.01:804][ 79]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection
+[2014.09.21-04.55.01:805][ 79]LogBlueprint:Warning: [compiler] Warning [1277.40] Compile of PointLight1_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 1 ms]
+[2014.09.21-04.55.02:008][ 79]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028B476A0
+[2014.09.21-04.55.02:009][ 79]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022807740
+[2014.09.21-04.55.26:431][928]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.55.26:431][928]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.55.26:431][928]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-04.55.58:434][281]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume1)
+[2014.09.21-04.56.55:690][583]LogEditorViewport: Clicking on Actor (LMB): PointLight1_Blueprint_C (PointLight1_Blueprint)
+[2014.09.21-04.56.56:192][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000246BB6A0
+[2014.09.21-04.56.56:215][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/Autosaves/Game/LightToggle_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.09.21-04.56.56:242][613]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2014.09.21-04.56.56:242][613]LogBlueprint:Warning: [compiler] Warning [1391.83] Compile of LightToggle successful, but with 1 Warning(s) [in 1 ms]
+[2014.09.21-04.56.56:275][613]LogSavePackage: Save=35.977795ms
+[2014.09.21-04.56.56:275][613]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle_Auto2BB4E44E341C81068FDA83FA44751B9DE.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/Autosaves/Game/LightToggle_Auto2.umap'
+[2014.09.21-04.56.56:283][613]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LightToggle' took 0.114
+[2014.09.21-04.56.56:283][613]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.114
+[2014.09.21-04.56.56:300][613]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/LightToggle] ([1] browsable assets)...
+[2014.09.21-04.56.56:317][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/LightToggle]
+[2014.09.21-04.56.56:364][613]LogSavePackage: Save=13.368477ms
+[2014.09.21-04.56.56:364][613]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle_Auto2A0FB1B7D4FAC069ADF921EA23D6EE921.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/LightToggle_Auto2.uasset'
+[2014.09.21-04.56.56:388][613]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PointLight1_Blueprint] ([1] browsable assets)...
+[2014.09.21-04.56.56:400][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PointLight1_Blueprint]
+[2014.09.21-04.56.56:470][613]LogSavePackage: Save=18.993904ms
+[2014.09.21-04.56.56:470][613]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/PointLight1_Blueprint_Auto2CB4A9AAD42A9DBF7F5D56B8B229C407D.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/PointLight1_Blueprint_Auto2.uasset'
+[2014.09.21-04.56.56:476][613]LogFileHelpers: Auto-saving content packages took 0.193
+[2014.09.21-04.56.57:409][671]Cmd: DELETE
+[2014.09.21-04.56.57:409][671]Cmd: ACTOR DELETE
+[2014.09.21-04.56.57:426][671]LogEditorActor: Deleted Actor: PointLight1_Blueprint_C
+[2014.09.21-04.56.57:445][671]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2014.09.21-04.57.20:407][349]BlueprintLog: New page: Compile LightToggle
+[2014.09.21-04.57.20:460][349]BlueprintEditorCompileResults: Info [1416.00] Compile of LightToggle successful! [in 1 ms]
+[2014.09.21-04.57.23:383][554]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-04.57.23:386][554]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-04.57.23:444][554]LogPlayLevel: PIE:  Blueprint regeneration took 61 ms (1 blueprints)
+[2014.09.21-04.57.27:374][554]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 4:57:27 PM)
+[2014.09.21-04.57.27:377][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002284s)
+[2014.09.21-04.57.27:377][554]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2014.09.21-04.57.27:378][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.002988s)
+[2014.09.21-04.57.27:401][554]LogWorld: Game class is 'GameMode'
+[2014.09.21-04.57.27:403][554]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-04.57.27:404][554]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-22.57.27
+[2014.09.21-04.57.27:416][554]LogWorld: Bringing up level for play took: 0.013150
+[2014.09.21-04.57.27:417][554]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 3.516
+[2014.09.21-04.57.32:899][ 47]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000212CB560
+[2014.09.21-04.57.38:579][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-04.57.39:579][576]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume1)
+[2014.09.21-04.58.04:938][731]BlueprintLog: New page: Compile LightToggle
+[2014.09.21-04.58.05:022][731]BlueprintEditorCompileResults: Info [1460.54] Compile of LightToggle successful! [in 2 ms]
+[2014.09.21-04.58.07:222][881]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-04.58.07:224][881]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-04.58.07:287][881]LogPlayLevel: PIE:  Blueprint regeneration took 65 ms (1 blueprints)
+[2014.09.21-04.58.07:287][881]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 4:58:07 PM)
+[2014.09.21-04.58.07:290][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002307s)
+[2014.09.21-04.58.07:290][881]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2014.09.21-04.58.07:290][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.003027s)
+[2014.09.21-04.58.07:316][881]LogWorld: Game class is 'GameMode'
+[2014.09.21-04.58.07:318][881]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-04.58.07:318][881]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-22.58.07
+[2014.09.21-04.58.07:319][881]LogWorld: Bringing up level for play took: 0.000910
+[2014.09.21-04.58.07:319][881]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle -0.582
+[2014.09.21-04.58.21:332][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027E9B420
+[2014.09.21-04.58.48:237][296]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-04.58.48:240][296]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-04.58.48:292][296]LogPlayLevel: PIE:  Blueprint regeneration took 54 ms (1 blueprints)
+[2014.09.21-04.58.48:292][296]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 4:58:48 PM)
+[2014.09.21-04.58.48:295][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002251s)
+[2014.09.21-04.58.48:295][296]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2014.09.21-04.58.48:295][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.002965s)
+[2014.09.21-04.58.48:325][296]LogWorld: Game class is 'GameMode'
+[2014.09.21-04.58.48:327][296]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-04.58.48:327][296]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-22.58.48
+[2014.09.21-04.58.48:328][296]LogWorld: Bringing up level for play took: 0.000923
+[2014.09.21-04.58.48:328][296]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.426
+[2014.09.21-04.58.52:819][694]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000AD6FC40
+[2014.09.21-04.58.56:779][  8]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-04.58.56:781][  8]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-04.58.56:834][  8]LogPlayLevel: PIE:  Blueprint regeneration took 55 ms (1 blueprints)
+[2014.09.21-04.58.56:834][  8]PIE: New page: SIE session: LightToggle (Sep 20, 2014, 4:58:56 PM)
+[2014.09.21-04.58.56:837][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002332s)
+[2014.09.21-04.58.56:837][  8]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2014.09.21-04.58.56:838][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.003048s)
+[2014.09.21-04.58.56:838][  8]LogSelection:Warning: PIE object was selected: "TriggerVolume /Game/UEDPIE_0_LightToggle.LightToggle:PersistentLevel.TriggerVolume_1"
+[2014.09.21-04.58.56:863][  8]LogWorld: Game class is 'GameMode'
+[2014.09.21-04.58.56:864][  8]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-04.58.56:865][  8]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-22.58.56
+[2014.09.21-04.58.56:865][  8]LogWorld: Bringing up level for play took: 0.000948
+[2014.09.21-04.58.56:866][  8]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.963
+[2014.09.21-04.58.56:878][  8]LogSelection:Warning: PIE object was selected: "TriggerVolume /Game/UEDPIE_0_LightToggle.LightToggle:PersistentLevel.TriggerVolume_1"
+[2014.09.21-04.59.01:752][214]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B185940
+[2014.09.21-04.59.02:522][268]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-04.59.02:524][268]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-04.59.02:577][268]LogPlayLevel: PIE:  Blueprint regeneration took 55 ms (1 blueprints)
+[2014.09.21-04.59.02:577][268]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 4:59:02 PM)
+[2014.09.21-04.59.02:579][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002207s)
+[2014.09.21-04.59.02:580][268]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2014.09.21-04.59.02:580][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.002931s)
+[2014.09.21-04.59.02:607][268]LogWorld: Game class is 'GameMode'
+[2014.09.21-04.59.02:609][268]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-04.59.02:610][268]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-22.59.02
+[2014.09.21-04.59.02:610][268]LogWorld: Bringing up level for play took: 0.000955
+[2014.09.21-04.59.02:611][268]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.708
+[2014.09.21-04.59.10:146][977]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000218C3EC0
+[2014.09.21-04.59.12:740][155]MapCheck: New page: Map Check
+[2014.09.21-04.59.12:772][155]Cmd: MAP REBUILD ALLVISIBLE
+[2014.09.21-04.59.12:772][155]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.09.21-04.59.12:787][155]LightingResults: New page: Lighting Build - Sep 20, 2014, 4:59:12 PM
+[2014.09.21-04.59.17:698][155]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.09.21-04.59.17:702][155]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.09.21-04.59.17:702][155]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.09.21-04.59.17:702][155]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.09.21-04.59.17:702][155]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.09.21-04.59.17:702][155]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.09.21-04.59.17:894][155]LogEditorBuildUtils: Build time 0:00:05
+[2014.09.21-04.59.17:913][155]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling.
+[2014.09.21-04.59.17:924][155]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling.
+[2014.09.21-04.59.17:927][155]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling.
+[2014.09.21-04.59.17:974][156]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_61, compiling.
+[2014.09.21-04.59.17:976][156]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_61, compiling.
+[2014.09.21-04.59.17:978][156]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_61, compiling.
+[2014.09.21-04.59.17:991][157]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling.
+[2014.09.21-04.59.17:993][157]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling.
+[2014.09.21-04.59.17:994][157]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling.
+[2014.09.21-04.59.21:160][209]Job is a success!
+[2014.09.21-04.59.21:244][210]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.09.21-04.59.21:259][210]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.09.21-04.59.21:265][210]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.09.21-04.59.21:269][210]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.09.21-04.59.21:296][210]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.09.21-04.59.21:301][210]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.09.21-04.59.21:347][210]Lightmass on DRAGONRIDER: 667 ms total, 126 ms importing, 2 ms setup, 167 ms photons, 342 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.64 sec total, 283 ms processing.
+[2014.09.21-04.59.21:364][210]LogStaticLightingSystem:Warning: Illumination: 8.53 sec (69 ms encoding lightmaps)
+[2014.09.21-04.59.21:364][210]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2014.09.21-04.59.21:364][210]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.09.21-04.59.21:727][211]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.09.21-04.59.21:727][211]MapCheck: New page: LightToggle - Sep 20, 2014, 4:59:21 PM
+[2014.09.21-04.59.21:787][211]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [59.99ms] ==========
+[2014.09.21-04.59.24:726][394]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-04.59.24:728][394]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-04.59.24:781][394]LogPlayLevel: PIE:  Blueprint regeneration took 55 ms (1 blueprints)
+[2014.09.21-04.59.24:781][394]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 4:59:24 PM)
+[2014.09.21-04.59.24:784][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002269s)
+[2014.09.21-04.59.24:784][394]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2014.09.21-04.59.24:784][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.002990s)
+[2014.09.21-04.59.24:808][394]LogWorld: Game class is 'GameMode'
+[2014.09.21-04.59.24:810][394]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-04.59.24:810][394]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-22.59.24
+[2014.09.21-04.59.24:811][394]LogWorld: Bringing up level for play took: 0.000977
+[2014.09.21-04.59.24:812][394]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.909
+[2014.09.21-04.59.32:538][119]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002264A3E0
+[2014.09.21-05.00.04:239][430]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.00.04:241][430]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.00.04:310][430]LogPlayLevel: PIE:  Blueprint regeneration took 70 ms (1 blueprints)
+[2014.09.21-05.00.04:310][430]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:00:04 PM)
+[2014.09.21-05.00.04:312][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002343s)
+[2014.09.21-05.00.04:313][430]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2014.09.21-05.00.04:313][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.003078s)
+[2014.09.21-05.00.04:341][430]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.00.04:342][430]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.00.04:343][430]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.00.04
+[2014.09.21-05.00.04:343][430]LogWorld: Bringing up level for play took: 0.000967
+[2014.09.21-05.00.04:344][430]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.44
+[2014.09.21-05.00.18:402][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.00.18:455][569]LogSavePackage: Save=32.181377ms
+[2014.09.21-05.00.18:455][569]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggleD5A1AFB44CAB9E8D213859A2AA472977.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.00.18:472][569]LogFileHelpers: Saving map 'LightToggle' took 0.114
+[2014.09.21-05.00.18:474][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/LightToggle.uasset" SILENT=true
+[2014.09.21-05.00.18:484][569]LogSavePackage: Save=9.005411ms
+[2014.09.21-05.00.18:484][569]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggleE39DB0CE413DEE60D53EDF9FA49DB843.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/LightToggle.uasset'
+[2014.09.21-05.00.21:564][814]LogOutputDevice: === Handled error: ===
+Ensure condition failed: NewObject->IsA(this->GeneratedClass) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 479]
+
+Stack: Address = 0xd3db5216 (filename not found) [in D:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd3c419d1 (filename not found) [in D:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xce43dc07 (filename not found) [in D:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xceb328ff (filename not found) [in D:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xd1f37840 (filename not found) [in D:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xd1ee1477 (filename not found) [in D:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xd1ccbd01 (filename not found) [in D:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xd20b69a6 (filename not found) [in D:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3f55722e + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2098] [in D:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f54ca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in D:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f54caaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in D:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f5588c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in D:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f5596f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in D:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x77a959ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x77bcc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x77bcc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.09.21-05.00.23:695][815]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022649EE0
+[2014.09.21-05.09.13:100][771]BlueprintLog: New page: Compile LightToggle
+[2014.09.21-05.09.13:162][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000492728E0
+[2014.09.21-05.09.13:166][771]BlueprintEditorCompileResults: Info [2128.68] Compile of LightToggle successful! [in 1 ms]
+[2014.09.21-05.09.40:139][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-05.09.43:023][834]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.21-05.10.21:230][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/Autosaves/Game/LightToggle_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.09.21-05.10.21:295][414]LogSavePackage: Save=39.623062ms
+[2014.09.21-05.10.21:295][414]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle_Auto32FF8BC4A40E767224ADE50B8810D5C51.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/Autosaves/Game/LightToggle_Auto3.umap'
+[2014.09.21-05.10.21:304][414]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LightToggle' took 0.113
+[2014.09.21-05.10.21:304][414]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.113
+[2014.09.21-05.10.25:811][713]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1'
+[2014.09.21-05.10.27:064][806]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1/Object1'
+[2014.09.21-05.10.29:543][982]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Scene1'
+[2014.09.21-05.11.16:962][199]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.11.16:964][199]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.11.17:036][199]LogPlayLevel: PIE:  Blueprint regeneration took 74 ms (1 blueprints)
+[2014.09.21-05.11.17:036][199]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:11:17 PM)
+[2014.09.21-05.11.17:043][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006513s)
+[2014.09.21-05.11.17:044][199]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2014.09.21-05.11.17:044][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.007715s)
+[2014.09.21-05.11.17:072][199]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.11.17:075][199]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.11.17:077][199]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.11.17
+[2014.09.21-05.11.17:088][199]LogWorld: Bringing up level for play took: 0.013055
+[2014.09.21-05.11.17:090][199]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle -0.823
+[2014.09.21-05.11.22:646][696]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015D6F6A0
+[2014.09.21-05.11.29:033][136]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.21-05.11.39:002][760]Cmd: EDIT COPY
+[2014.09.21-05.11.39:305][782]Cmd: EDIT PASTE
+[2014.09.21-05.11.46:445][264]Cmd: EDIT PASTE
+[2014.09.21-05.11.46:458][264]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/LightToggle.LightToggle:PersistentLevel.BoxBrush_3.Model_14 or Model /Game/LightToggle.LightToggle:PersistentLevel.BoxBrush_2.Model_14
+[2014.09.21-05.12.09:045][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.12.09:101][797]LogSavePackage: Save=34.813087ms
+[2014.09.21-05.12.09:101][797]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggleC42B8DDB4D693044F11A9B95BD9BF1C5.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.12.09:118][797]LogFileHelpers: Saving map 'LightToggle' took 0.117
+[2014.09.21-05.12.30:212][304]LogRenderer:Warning: Reallocating scene render targets to support 1136x920.
+[2014.09.21-05.12.47:353][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.12.47:364][142]LogSavePackage: Save=8.918330ms
+[2014.09.21-05.12.47:364][142]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLight8E52CDD24C016512B8AFB1B53069A272.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.16.19:463][206]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.09.21-05.18.26:854][999]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.21-05.22.07:848][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/Autosaves/Game/LightToggle_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.09.21-05.22.07:916][  9]LogSavePackage: Save=40.670212ms
+[2014.09.21-05.22.07:916][  9]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle_Auto4435BD545450F8317C044F2B4033BA887.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/Autosaves/Game/LightToggle_Auto4.umap'
+[2014.09.21-05.22.07:926][  9]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LightToggle' took 0.115
+[2014.09.21-05.22.07:926][  9]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.115
+[2014.09.21-05.22.07:944][  9]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/TriggerLight] ([1] browsable assets)...
+[2014.09.21-05.22.07:955][  9]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/TriggerLight]
+[2014.09.21-05.22.08:043][  9]LogSavePackage: Save=34.124836ms
+[2014.09.21-05.22.08:043][  9]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLight_Auto414BCFCA641BBE8BE21AE1FBFC630ADA4.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/TriggerLight_Auto4.uasset'
+[2014.09.21-05.22.08:051][  9]LogFileHelpers: Auto-saving content packages took 0.125
+[2014.09.21-05.25.30:507][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.25.30:567][566]LogSavePackage: Save=38.451824ms
+[2014.09.21-05.25.30:567][566]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle379538B2485FB9F975504C8331D8FCF0.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.25.30:583][566]LogFileHelpers: Saving map 'LightToggle' took 0.120
+[2014.09.21-05.25.30:585][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.25.30:603][566]LogSavePackage: Save=15.051937ms
+[2014.09.21-05.25.30:603][566]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLight24E806C54EAC733FC62D1B9B80CE7484.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.26.55:946][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.26.56:008][940]LogSavePackage: Save=39.443928ms
+[2014.09.21-05.26.56:008][940]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle5772352E434487EE9598F184471CB57C.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.26.56:026][940]LogFileHelpers: Saving map 'LightToggle' took 0.127
+[2014.09.21-05.26.56:029][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.26.56:047][940]LogSavePackage: Save=15.906885ms
+[2014.09.21-05.26.56:047][940]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLightBA78102D49A1DA692691E0A1B41529F2.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.27.54:573][426]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-05.27.54:573][426]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-05.28.20:485][375]BlueprintLog: New page: Compile TriggerLight
+[2014.09.21-05.28.20:585][375]BlueprintEditorCompileResults: Info [3276.05] Compile of TriggerLight successful! [in 1 ms]
+[2014.09.21-05.28.38:629][743]BlueprintLog: New page: Compile TriggerLight
+[2014.09.21-05.28.38:720][743]BlueprintEditorCompileResults: Info [3294.20] Compile of TriggerLight successful! [in 1 ms]
+[2014.09.21-05.28.40:362][841]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.28.40:364][841]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.28.40:430][841]LogPlayLevel: PIE:  Blueprint regeneration took 68 ms (1 blueprints)
+[2014.09.21-05.28.40:430][841]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:28:40 PM)
+[2014.09.21-05.28.40:435][841]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004768s)
+[2014.09.21-05.28.40:436][841]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2014.09.21-05.28.40:436][841]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.005474s)
+[2014.09.21-05.28.40:464][841]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.28.40:466][841]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.28.40:467][841]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.28.40
+[2014.09.21-05.28.40:467][841]LogWorld: Bringing up level for play took: 0.001646
+[2014.09.21-05.28.40:468][841]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.539
+[2014.09.21-05.28.49:271][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000244C9D00
+[2014.09.21-05.28.58:265][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.28.58:325][240]LogSavePackage: Save=36.807861ms
+[2014.09.21-05.28.58:325][240]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggleD1A1C1184DF63A7368CBF4BAD9602EC9.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.28.58:341][240]LogFileHelpers: Saving map 'LightToggle' took 0.121
+[2014.09.21-05.28.58:343][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.28.58:360][240]LogSavePackage: Save=14.355912ms
+[2014.09.21-05.28.58:360][240]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLight794094D94D0A80AFD2DA6E9856B5765F.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.29.00:432][379]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.29.00:440][379]LogPlayLevel: [PIE] Compiling TriggerLight before PIE...
+[2014.09.21-05.29.00:509][379]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.29.00:565][379]LogPlayLevel: PIE:  Blueprint regeneration took 133 ms (2 blueprints)
+[2014.09.21-05.29.00:566][379]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:29:00 PM)
+[2014.09.21-05.29.00:570][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004447s)
+[2014.09.21-05.29.00:571][379]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2014.09.21-05.29.00:571][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.005130s)
+[2014.09.21-05.29.00:602][379]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.29.00:604][379]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.29.00:606][379]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.29.00
+[2014.09.21-05.29.00:607][379]LogWorld: Bringing up level for play took: 0.002760
+[2014.09.21-05.29.00:608][379]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.679
+[2014.09.21-05.29.10:398][246]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000049273600
+[2014.09.21-05.29.11:886][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.29.11:905][345]LogSavePackage: Save=15.801766ms
+[2014.09.21-05.29.11:905][345]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLightD898E8124821467BB9C30A9CF84E538D.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.29.39:781][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.29.39:844][398]LogSavePackage: Save=39.452011ms
+[2014.09.21-05.29.39:844][398]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle6DB9FA9A4AB41E5E1F3BF5B0506EBC3C.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.29.39:861][398]LogFileHelpers: Saving map 'LightToggle' took 0.142
+[2014.09.21-05.29.39:864][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerBox" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset" SILENT=true
+[2014.09.21-05.29.39:878][398]LogSavePackage: Save=12.585993ms
+[2014.09.21-05.29.39:878][398]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerBox6E14A73149A2A6DE441147838058C305.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset'
+[2014.09.21-05.30.59:279][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-05.31.00:624][306]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-05.31.01:546][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-05.31.02:057][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-05.31.02:516][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-05.31.02:921][411]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_C (TriggerBox)
+[2014.09.21-05.31.03:232][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-05.31.04:274][472]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_C (TriggerBox)
+[2014.09.21-05.31.16:661][ 30]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.31.16:677][ 30]LogPlayLevel: [PIE] Compiling TriggerBox before PIE...
+[2014.09.21-05.31.16:763][ 30]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.31.16:832][ 30]LogPlayLevel: PIE:  Blueprint regeneration took 171 ms (2 blueprints)
+[2014.09.21-05.31.16:833][ 30]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:31:16 PM)
+[2014.09.21-05.31.16:837][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004819s)
+[2014.09.21-05.31.16:838][ 30]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2014.09.21-05.31.16:838][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.005524s)
+[2014.09.21-05.31.16:864][ 30]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.31.16:867][ 30]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.31.16:870][ 30]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.31.16
+[2014.09.21-05.31.16:870][ 30]LogWorld: Bringing up level for play took: 0.003361
+[2014.09.21-05.31.16:872][ 30]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.94
+[2014.09.21-05.31.23:728][643]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000050E2F240
+[2014.09.21-05.31.28:313][850]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2014.09.21-05.31.31:083][975]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2014.09.21-05.31.36:832][243]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.09.21-05.31.39:015][344]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.31.39:017][344]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.31.39:076][344]LogPlayLevel: PIE:  Blueprint regeneration took 61 ms (1 blueprints)
+[2014.09.21-05.31.39:076][344]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:31:39 PM)
+[2014.09.21-05.31.39:081][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004653s)
+[2014.09.21-05.31.39:082][344]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2014.09.21-05.31.39:082][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.005355s)
+[2014.09.21-05.31.39:110][344]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.31.39:112][344]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.31.39:115][344]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.31.39
+[2014.09.21-05.31.39:116][344]LogWorld: Bringing up level for play took: 0.003323
+[2014.09.21-05.31.39:117][344]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle -0.814
+[2014.09.21-05.31.40:719][473]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000050C4B420
+[2014.09.21-05.31.44:535][639]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.09.21-05.31.45:877][705]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.31.45:879][705]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.31.45:939][705]LogPlayLevel: PIE:  Blueprint regeneration took 61 ms (1 blueprints)
+[2014.09.21-05.31.45:939][705]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:31:45 PM)
+[2014.09.21-05.31.45:943][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004576s)
+[2014.09.21-05.31.45:944][705]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2014.09.21-05.31.45:944][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.005291s)
+[2014.09.21-05.31.45:975][705]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.31.45:978][705]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.31.45:981][705]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.31.45
+[2014.09.21-05.31.45:981][705]LogWorld: Bringing up level for play took: 0.003451
+[2014.09.21-05.31.45:983][705]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.052
+[2014.09.21-05.31.46:989][778]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000050C489A0
+[2014.09.21-05.32.51:245][777]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_C (TriggerBox)
+[2014.09.21-05.33.14:061][121]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.33.14:064][121]LogPlayLevel: [PIE] Compiling TriggerLight before PIE...
+[2014.09.21-05.33.14:146][121]LogPlayLevel: [PIE] Compiling TriggerBox before PIE...
+[2014.09.21-05.33.14:235][121]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.33.14:315][121]LogPlayLevel: PIE:  Blueprint regeneration took 253 ms (3 blueprints)
+[2014.09.21-05.33.14:315][121]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:33:14 PM)
+[2014.09.21-05.33.14:320][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004757s)
+[2014.09.21-05.33.14:320][121]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2014.09.21-05.33.14:320][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.005455s)
+[2014.09.21-05.33.14:346][121]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.33.14:347][121]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.33.14:348][121]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.33.14
+[2014.09.21-05.33.14:349][121]LogWorld: Bringing up level for play took: 0.001925
+[2014.09.21-05.33.14:350][121]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.417
+[2014.09.21-05.33.16:347][287]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000050C49760
+[2014.09.21-05.33.20:367][475]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.33.20:370][475]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.33.20:432][475]LogPlayLevel: PIE:  Blueprint regeneration took 64 ms (1 blueprints)
+[2014.09.21-05.33.20:432][475]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:33:20 PM)
+[2014.09.21-05.33.20:437][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004778s)
+[2014.09.21-05.33.20:437][475]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2014.09.21-05.33.20:438][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.005491s)
+[2014.09.21-05.33.20:467][475]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.33.20:468][475]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.33.20:469][475]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.33.20
+[2014.09.21-05.33.20:470][475]LogWorld: Bringing up level for play took: 0.001841
+[2014.09.21-05.33.20:471][475]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.537
+[2014.09.21-05.33.28:925][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000050509B20
+[2014.09.21-05.34.10:392][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.34.10:464][274]LogSavePackage: Save=46.977669ms
+[2014.09.21-05.34.10:464][274]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle8B7CE4004EBCDD4743A2C89F0558403F.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.34.10:493][274]LogFileHelpers: Saving map 'LightToggle' took 0.145
+[2014.09.21-05.34.10:496][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.34.10:534][274]LogSavePackage: Save=27.072525ms
+[2014.09.21-05.34.10:534][274]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLightA599265C4454BA8A2F567890B918B152.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.34.10:561][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerBox" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset" SILENT=true
+[2014.09.21-05.34.11:014][274]LogSavePackage: Save=447.444794ms
+[2014.09.21-05.34.11:014][274]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerBox51D1C31E4B046BCA4BF2BFBA03D35BDB.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset'
+[2014.09.21-05.35.13:710][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.35.13:772][760]LogSavePackage: Save=37.972881ms
+[2014.09.21-05.35.13:772][760]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggleE24645F44ABD0E6834021B81F78A4066.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.35.13:797][760]LogFileHelpers: Saving map 'LightToggle' took 0.132
+[2014.09.21-05.35.13:816][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerBox" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset" SILENT=true
+[2014.09.21-05.35.14:218][760]LogSavePackage: Save=398.653351ms
+[2014.09.21-05.35.14:218][760]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerBox1B701BBC4D203F5E4253FF827F8D1EF6.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset'
+[2014.09.21-05.35.15:927][869]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.35.15:930][869]LogPlayLevel: [PIE] Compiling TriggerBox before PIE...
+[2014.09.21-05.35.16:001][869]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.35.16:069][869]LogPlayLevel: PIE:  Blueprint regeneration took 142 ms (2 blueprints)
+[2014.09.21-05.35.16:069][869]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:35:16 PM)
+[2014.09.21-05.35.16:075][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005016s)
+[2014.09.21-05.35.16:075][869]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2014.09.21-05.35.16:075][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.005717s)
+[2014.09.21-05.35.16:105][869]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.35.16:106][869]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.35.16:108][869]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.35.16
+[2014.09.21-05.35.16:108][869]LogWorld: Bringing up level for play took: 0.001982
+[2014.09.21-05.35.16:109][869]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.175
+[2014.09.21-05.35.24:399][627]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000514551C0
+[2014.09.21-05.35.33:796][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.35.33:855][210]LogSavePackage: Save=36.581764ms
+[2014.09.21-05.35.33:855][210]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle1279255146E41DBDB1100D89E40F6968.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.35.33:870][210]LogFileHelpers: Saving map 'LightToggle' took 0.120
+[2014.09.21-05.35.33:888][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerBox" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset" SILENT=true
+[2014.09.21-05.35.34:291][210]LogSavePackage: Save=399.910126ms
+[2014.09.21-05.35.34:291][210]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerBox4D8C5EDC487C88F84994309761990A19.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset'
+[2014.09.21-05.35.36:019][321]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.35.36:029][321]LogPlayLevel: [PIE] Compiling TriggerBox before PIE...
+[2014.09.21-05.35.36:107][321]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.35.36:166][321]LogPlayLevel: PIE:  Blueprint regeneration took 146 ms (2 blueprints)
+[2014.09.21-05.35.36:166][321]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:35:36 PM)
+[2014.09.21-05.35.36:171][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004939s)
+[2014.09.21-05.35.36:172][321]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2014.09.21-05.35.36:172][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.005646s)
+[2014.09.21-05.35.36:198][321]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.35.36:199][321]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.35.36:201][321]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.35.36
+[2014.09.21-05.35.36:201][321]LogWorld: Bringing up level for play took: 0.002013
+[2014.09.21-05.35.36:202][321]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.268
+[2014.09.21-05.35.41:969][846]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000050C4BB00
+[2014.09.21-05.36.04:774][470]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.09.21-05.36.16:242][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.36.16:305][289]LogSavePackage: Save=39.319527ms
+[2014.09.21-05.36.16:305][289]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle62E06B704E01A4712C2CD68BB4B2F286.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.36.16:323][289]LogFileHelpers: Saving map 'LightToggle' took 0.156
+[2014.09.21-05.36.16:343][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerBox" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset" SILENT=true
+[2014.09.21-05.36.16:728][289]LogSavePackage: Save=381.662628ms
+[2014.09.21-05.36.16:728][289]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerBoxE052C1DA44A4F8959F97499BAB611F26.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset'
+[2014.09.21-05.36.17:760][351]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.36.17:763][351]LogPlayLevel: [PIE] Compiling TriggerBox before PIE...
+[2014.09.21-05.36.17:770][351]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a TextRenderComponent, therefore ' Target ' must have a connection
+[2014.09.21-05.36.17:770][351]LogBlueprint:Warning: [compiler] Warning [3753.33] Compile of TriggerBox failed. 1 Fatal Issue(s) 0 Warning(s) [in 1 ms]
+[2014.09.21-05.36.17:901][351]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.36.17:969][351]LogPlayLevel: PIE:  Blueprint regeneration took 209 ms (2 blueprints)
+[2014.09.21-05.36.19:754][351]BlueprintLog: Info Blueprint TriggerBox failed to compile
+[2014.09.21-05.36.39:257][807]BlueprintLog: New page: Compile TriggerBox
+[2014.09.21-05.36.39:358][807]BlueprintEditorCompileResults: Info [3774.82] Compile of TriggerBox successful! [in 1 ms]
+[2014.09.21-05.36.41:437][935]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.36.41:439][935]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.36.41:508][935]LogPlayLevel: PIE:  Blueprint regeneration took 70 ms (1 blueprints)
+[2014.09.21-05.36.41:508][935]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:36:41 PM)
+[2014.09.21-05.36.41:513][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005244s)
+[2014.09.21-05.36.41:514][935]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2014.09.21-05.36.41:514][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.006086s)
+[2014.09.21-05.36.41:543][935]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.36.41:544][935]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.36.41:545][935]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.36.41
+[2014.09.21-05.36.41:546][935]LogWorld: Bringing up level for play took: 0.001928
+[2014.09.21-05.36.41:547][935]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle -0.389
+[2014.09.21-05.36.47:857][480]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F9D3060
+[2014.09.21-05.37.07:745][804]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.37.07:757][804]LogPlayLevel: [PIE] Compiling TriggerBox before PIE...
+[2014.09.21-05.37.07:842][804]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.37.07:902][804]LogPlayLevel: PIE:  Blueprint regeneration took 157 ms (2 blueprints)
+[2014.09.21-05.37.07:902][804]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:37:07 PM)
+[2014.09.21-05.37.07:907][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004771s)
+[2014.09.21-05.37.07:908][804]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2014.09.21-05.37.07:908][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.005472s)
+[2014.09.21-05.37.07:934][804]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.37.07:935][804]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.37.07:937][804]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.37.07
+[2014.09.21-05.37.07:937][804]LogWorld: Bringing up level for play took: 0.001994
+[2014.09.21-05.37.07:938][804]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.001
+[2014.09.21-05.37.27:584][647]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F9D3600
+[2014.09.21-05.37.28:482][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.37.28:546][700]LogSavePackage: Save=40.765381ms
+[2014.09.21-05.37.28:546][700]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggleD92A4B494DC41BC639AFFBB0CE0AB450.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.37.28:562][700]LogFileHelpers: Saving map 'LightToggle' took 0.126
+[2014.09.21-05.37.28:581][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerBox" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset" SILENT=true
+[2014.09.21-05.37.28:995][700]LogSavePackage: Save=410.864288ms
+[2014.09.21-05.37.28:995][700]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerBox391D4D30406991AA5A71379A14697F6F.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset'
+[2014.09.21-05.38.05:373][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.38.05:392][238]LogSavePackage: Save=15.936120ms
+[2014.09.21-05.38.05:392][238]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLight01BED59E476F2FDECF1F409DACD742FD.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.38.07:147][362]BlueprintLog: New page: Compile TriggerLight
+[2014.09.21-05.38.07:240][362]BlueprintEditorCompileResults: Info [3862.72] Compile of TriggerLight successful! [in 17 ms]
+[2014.09.21-05.38.09:141][484]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.38.09:143][484]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.38.09:216][484]LogPlayLevel: PIE:  Blueprint regeneration took 75 ms (1 blueprints)
+[2014.09.21-05.38.09:216][484]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:38:09 PM)
+[2014.09.21-05.38.09:221][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005105s)
+[2014.09.21-05.38.09:222][484]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2014.09.21-05.38.09:222][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.005868s)
+[2014.09.21-05.38.09:250][484]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.38.09:251][484]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.38.09:253][484]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.38.09
+[2014.09.21-05.38.09:253][484]LogWorld: Bringing up level for play took: 0.001906
+[2014.09.21-05.38.09:254][484]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle -0.683
+[2014.09.21-05.38.44:692][785]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000585DB240
+[2014.09.21-05.39.12:134][698]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-05.39.12:134][698]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-05.39.12:135][698]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-05.39.12:135][698]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-05.39.12:135][698]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-05.39.12:135][698]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-05.39.12:135][698]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-05.39.12:135][698]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-05.41.51:292][780]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.41.51:295][780]LogPlayLevel: [PIE] Compiling TriggerBox before PIE...
+[2014.09.21-05.41.51:384][780]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.41.51:472][780]LogPlayLevel: PIE:  Blueprint regeneration took 180 ms (2 blueprints)
+[2014.09.21-05.41.51:473][780]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:41:51 PM)
+[2014.09.21-05.41.51:477][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004758s)
+[2014.09.21-05.41.51:478][780]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2014.09.21-05.41.51:478][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.005459s)
+[2014.09.21-05.41.51:504][780]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.41.51:505][780]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.41.51:507][780]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.41.51
+[2014.09.21-05.41.51:507][780]LogWorld: Bringing up level for play took: 0.001940
+[2014.09.21-05.41.51:508][780]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle -0.433
+[2014.09.21-05.41.58:060][320]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005A100FE0
+[2014.09.21-05.42.11:544][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.42.11:609][175]LogSavePackage: Save=37.537167ms
+[2014.09.21-05.42.11:609][175]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle42FD506C400549C80C0149B782FAFEF0.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.42.11:625][175]LogFileHelpers: Saving map 'LightToggle' took 0.127
+[2014.09.21-05.42.23:829][936]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.21-05.42.23:848][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerBox" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset" SILENT=true
+[2014.09.21-05.42.24:239][936]LogSavePackage: Save=386.623138ms
+[2014.09.21-05.42.24:240][936]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerBox90AEBFB84974E5FFDE9E8FA7F139094A.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset'
+[2014.09.21-05.42.53:417][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.42.53:437][998]LogSavePackage: Save=14.410027ms
+[2014.09.21-05.42.53:437][998]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLight72B850C248E202FF7F7EF790FC7F394E.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.43.48:899][138]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.21-05.43.58:775][843]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.21-05.44.33:966][358]BlueprintLog: New page: Compile TriggerLight
+[2014.09.21-05.44.34:048][358]BlueprintEditorCompileResults: Info [4249.52] Compile of TriggerLight successful! [in 1 ms]
+[2014.09.21-05.44.38:677][712]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.44.38:680][712]LogPlayLevel: [PIE] Compiling TriggerBox before PIE...
+[2014.09.21-05.44.38:749][712]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.44.38:817][712]LogPlayLevel: PIE:  Blueprint regeneration took 140 ms (2 blueprints)
+[2014.09.21-05.44.38:817][712]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:44:38 PM)
+[2014.09.21-05.44.38:823][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005570s)
+[2014.09.21-05.44.38:823][712]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2014.09.21-05.44.38:824][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.006394s)
+[2014.09.21-05.44.38:847][712]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.44.38:849][712]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.44.38:850][712]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.44.38
+[2014.09.21-05.44.38:851][712]LogWorld: Bringing up level for play took: 0.001969
+[2014.09.21-05.44.38:852][712]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.908
+[2014.09.21-05.44.47:833][511]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005BAD6D40
+[2014.09.21-05.44.49:396][618]Cmd: DELETE
+[2014.09.21-05.44.49:396][618]Cmd: ACTOR DELETE
+[2014.09.21-05.44.49:396][618]LogEditorActor: Deleted Actor: Brush
+[2014.09.21-05.44.49:419][618]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2014.09.21-05.44.50:199][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.44.50:276][668]LogSavePackage: Save=53.716801ms
+[2014.09.21-05.44.50:276][668]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle2936BF0449845D61B1477680A72ECD82.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.44.50:294][668]LogFileHelpers: Saving map 'LightToggle' took 0.140
+[2014.09.21-05.44.50:297][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.44.50:317][668]LogSavePackage: Save=17.656900ms
+[2014.09.21-05.44.50:317][668]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLightC79A7EB84CA17B4E30B0C3BDAA2E8827.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.45.13:821][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.45.13:845][398]LogSavePackage: Save=19.365553ms
+[2014.09.21-05.45.13:845][398]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLight97A394DA469F76AD56357B9630368FE3.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.45.15:449][514]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.45.15:453][514]LogPlayLevel: [PIE] Compiling TriggerLight before PIE...
+[2014.09.21-05.45.15:514][514]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.45.15:573][514]LogPlayLevel: PIE:  Blueprint regeneration took 124 ms (2 blueprints)
+[2014.09.21-05.45.15:574][514]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:45:15 PM)
+[2014.09.21-05.45.15:578][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004758s)
+[2014.09.21-05.45.15:579][514]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2014.09.21-05.45.15:579][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.005474s)
+[2014.09.21-05.45.15:606][514]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.45.15:608][514]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.45.15:609][514]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.45.15
+[2014.09.21-05.45.15:610][514]LogWorld: Bringing up level for play took: 0.001951
+[2014.09.21-05.45.15:611][514]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle -0.333
+[2014.09.21-05.45.27:009][524]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005A577CE0
+[2014.09.21-05.46.06:513][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.46.06:615][783]LogSavePackage: Save=59.839523ms
+[2014.09.21-05.46.06:615][783]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle57A89ADB4DF982AF7D3CB7A1820F9185.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.46.06:630][783]LogFileHelpers: Saving map 'LightToggle' took 0.208
+[2014.09.21-05.46.06:632][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.46.06:650][783]LogSavePackage: Save=15.049450ms
+[2014.09.21-05.46.06:650][783]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLight0F9A34B64B6D55D1A06DABBC9849149F.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.46.19:742][595]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.21-05.46.20:679][658]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.46.20:683][658]LogPlayLevel: [PIE] Compiling TriggerLight before PIE...
+[2014.09.21-05.46.20:752][658]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.46.20:820][658]LogPlayLevel: PIE:  Blueprint regeneration took 140 ms (2 blueprints)
+[2014.09.21-05.46.20:820][658]PIE: New page: SIE session: LightToggle (Sep 20, 2014, 5:46:20 PM)
+[2014.09.21-05.46.20:826][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005168s)
+[2014.09.21-05.46.20:826][658]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2014.09.21-05.46.20:826][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.005914s)
+[2014.09.21-05.46.20:827][658]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/UEDPIE_0_LightToggle.LightToggle:PersistentLevel.BP_Sky_Shere_74"
+[2014.09.21-05.46.20:856][658]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.46.20:859][658]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.46.20:862][658]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.46.20
+[2014.09.21-05.46.20:862][658]LogWorld: Bringing up level for play took: 0.003542
+[2014.09.21-05.46.20:863][658]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.919
+[2014.09.21-05.46.20:877][658]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/UEDPIE_0_LightToggle.LightToggle:PersistentLevel.BP_Sky_Shere_74"
+[2014.09.21-05.46.37:933][240]Cmd: SELECT NONE
+[2014.09.21-05.46.41:241][466]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F8A4360
+[2014.09.21-05.47.07:338][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.47.07:405][332]LogSavePackage: Save=42.626736ms
+[2014.09.21-05.47.07:405][332]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle6F408FE949BB708868C7A2BF911F4A21.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.47.07:419][332]LogFileHelpers: Saving map 'LightToggle' took 0.127
+[2014.09.21-05.47.07:421][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.47.07:439][332]LogSavePackage: Save=15.035766ms
+[2014.09.21-05.47.07:439][332]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLightDD1DF5C84E83DB8E8EDC088CD06AC92E.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.47.09:564][462]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.47.09:568][462]LogPlayLevel: [PIE] Compiling TriggerLight before PIE...
+[2014.09.21-05.47.09:636][462]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.47.09:703][462]LogPlayLevel: PIE:  Blueprint regeneration took 139 ms (2 blueprints)
+[2014.09.21-05.47.09:704][462]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:47:09 PM)
+[2014.09.21-05.47.09:708][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004849s)
+[2014.09.21-05.47.09:709][462]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2014.09.21-05.47.09:709][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.005561s)
+[2014.09.21-05.47.09:737][462]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.47.09:739][462]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.47.09:740][462]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.47.09
+[2014.09.21-05.47.09:741][462]LogWorld: Bringing up level for play took: 0.001970
+[2014.09.21-05.47.09:742][462]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle -0.203
+[2014.09.21-05.47.15:820][985]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F8A7240
+[2014.09.21-05.47.19:420][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.47.19:483][214]LogSavePackage: Save=37.402191ms
+[2014.09.21-05.47.19:483][214]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle626215604E153A9A2F05209F4A7683D9.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.47.19:502][214]LogFileHelpers: Saving map 'LightToggle' took 0.126
+[2014.09.21-05.47.19:504][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.47.19:522][214]LogSavePackage: Save=14.626485ms
+[2014.09.21-05.47.19:523][214]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLight1E1ED253415A6E209F9B4E83285C1128.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.47.22:426][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.47.22:450][408]LogSavePackage: Save=20.150215ms
+[2014.09.21-05.47.22:450][408]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLightEE2A62554A1819FBF4450C8486C91058.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.47.24:060][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.47.24:080][517]LogSavePackage: Save=16.834919ms
+[2014.09.21-05.47.24:080][517]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLight73D24E4D49A65074FFC743896CCADD86.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.47.26:426][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.47.26:444][683]LogSavePackage: Save=14.939043ms
+[2014.09.21-05.47.26:444][683]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLightB651CC5F4414A7C7352E7EBF91848FC2.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.48.50:740][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.48.50:804][305]LogSavePackage: Save=40.607700ms
+[2014.09.21-05.48.50:804][305]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggleD7A27F044A038CA027DF8197BD3CAB87.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.48.50:818][305]LogFileHelpers: Saving map 'LightToggle' took 0.124
+[2014.09.21-05.48.53:040][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.48.53:103][458]LogSavePackage: Save=40.215836ms
+[2014.09.21-05.48.53:103][458]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle5FE98C4A4857D2D967C608AD126A8E5D.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.48.53:118][458]LogFileHelpers: Saving map 'LightToggle' took 0.123
+[2014.09.21-05.48.54:644][554]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.48.54:647][554]LogPlayLevel: [PIE] Compiling TriggerLight before PIE...
+[2014.09.21-05.48.54:718][554]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.48.54:794][554]LogPlayLevel: PIE:  Blueprint regeneration took 150 ms (2 blueprints)
+[2014.09.21-05.48.54:794][554]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:48:54 PM)
+[2014.09.21-05.48.54:803][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009112s)
+[2014.09.21-05.48.54:804][554]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2014.09.21-05.48.54:804][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.010249s)
+[2014.09.21-05.48.54:833][554]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.48.54:835][554]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.48.54:838][554]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.48.54
+[2014.09.21-05.48.54:839][554]LogWorld: Bringing up level for play took: 0.003610
+[2014.09.21-05.48.54:840][554]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2014.09.21-05.48.54:841][554]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle 0.894
+[2014.09.21-05.48.58:612][880]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022804180
+[2014.09.21-05.48.59:582][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.48.59:648][933]LogSavePackage: Save=41.485043ms
+[2014.09.21-05.48.59:648][933]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle7E7EA3AF45115A1BEB24459CFDF45A97.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.48.59:665][933]LogFileHelpers: Saving map 'LightToggle' took 0.138
+[2014.09.21-05.49.58:704][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.49.58:774][243]LogSavePackage: Save=44.191704ms
+[2014.09.21-05.49.58:774][243]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggleC5BF63E54C95DF73F9E547A0D6E0DF16.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.49.58:793][243]LogFileHelpers: Saving map 'LightToggle' took 0.162
+[2014.09.21-05.50.09:106][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.50.09:169][962]LogSavePackage: Save=39.136345ms
+[2014.09.21-05.50.09:169][962]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggleDEB635B3473D4933CC633FBB05157FC1.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.50.09:187][962]LogFileHelpers: Saving map 'LightToggle' took 0.157
+[2014.09.21-05.50.27:368][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerBox" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset" SILENT=true
+[2014.09.21-05.50.27:758][305]LogSavePackage: Save=384.148468ms
+[2014.09.21-05.50.27:758][305]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerBox044F5B3A4E7C6B55A9FAD7895E680EBE.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerBox.uasset'
+[2014.09.21-05.50.56:390][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.50.56:472][187]LogSavePackage: Save=50.428562ms
+[2014.09.21-05.50.56:472][187]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle55727E464B33F81BACAE3AB00D37801E.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.50.56:491][187]LogFileHelpers: Saving map 'LightToggle' took 0.192
+[2014.09.21-05.50.56:493][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.50.56:520][187]LogSavePackage: Save=18.797039ms
+[2014.09.21-05.50.56:520][187]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLightED0096E045DB4A26846B158F3A3BBCE6.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.51.10:977][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.51.11:062][110]LogSavePackage: Save=62.313244ms
+[2014.09.21-05.51.11:062][110]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggleB374E292485E6E325C61C297CA3C49A1.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.51.11:084][110]LogFileHelpers: Saving map 'LightToggle' took 0.152
+[2014.09.21-05.51.11:086][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.51.11:108][110]LogSavePackage: Save=17.223984ms
+[2014.09.21-05.51.11:108][110]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLight58B8951242C610182DC5AE8E80BF656E.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.51.43:968][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.51.44:054][289]LogSavePackage: Save=40.967842ms
+[2014.09.21-05.51.44:054][289]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle0BF7BDC445D003F9306ACF85CBC0A3A4.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.51.44:071][289]LogFileHelpers: Saving map 'LightToggle' took 0.171
+[2014.09.21-05.51.44:074][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerLight" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset" SILENT=true
+[2014.09.21-05.51.44:095][289]LogSavePackage: Save=18.371586ms
+[2014.09.21-05.51.44:095][289]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/TriggerLight3EE51EA14AB67D49A04A4096C7D5AB3D.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/Blueprints/TriggerLight.uasset'
+[2014.09.21-05.51.45:557][379]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.21-05.51.45:561][379]LogPlayLevel: [PIE] Compiling TriggerLight before PIE...
+[2014.09.21-05.51.45:638][379]LogPlayLevel: [PIE] Compiling TriggerBox before PIE...
+[2014.09.21-05.51.45:708][379]LogPlayLevel: [PIE] Compiling LightToggle before PIE...
+[2014.09.21-05.51.45:782][379]LogPlayLevel: PIE:  Blueprint regeneration took 224 ms (3 blueprints)
+[2014.09.21-05.51.45:782][379]PIE: New page: PIE session: LightToggle (Sep 20, 2014, 5:51:45 PM)
+[2014.09.21-05.51.45:790][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007296s)
+[2014.09.21-05.51.45:790][379]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2014.09.21-05.51.45:790][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightToggle.LightToggle to /Game/UEDPIE_0_LightToggle.LightToggle (0.008091s)
+[2014.09.21-05.51.45:816][379]LogWorld: Game class is 'GameMode'
+[2014.09.21-05.51.45:818][379]LogAIModule: Creating AISystem for world LightToggle
+[2014.09.21-05.51.45:820][379]LogWorld: Bringing World /Game/UEDPIE_0_LightToggle.LightToggle up for play (max tick rate 0) at 2014.09.20-23.51.45
+[2014.09.21-05.51.45:846][379]LogWorld: Bringing up level for play took: 0.027791
+[2014.09.21-05.51.45:847][379]PIE: Info Play in editor start time for /Game/UEDPIE_0_LightToggle -0.103
+[2014.09.21-05.51.58:113][404]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000492314E0
+[2014.09.21-05.52.00:519][538]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.21-05.52.00:888][556]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.21-05.52.00:933][556]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.21-05.52.00:934][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LightToggle" FILE="C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.21-05.52.00:989][556]LogSavePackage: Save=33.775890ms
+[2014.09.21-05.52.00:989][556]LogSavePackage: Moving 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Saved/LightToggle60655AC54D7534CB13FB7F8D6FE44436.tmp' to 'C:/Users/Mike/Desktop/machinima/Unreal Projects/MyProject/Content/LightToggle.umap'
+[2014.09.21-05.52.01:003][556]LogFileHelpers: Saving map 'LightToggle' took 0.115
+[2014.09.21-05.52.01:685][594]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.21-05.52.13:266][335]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DF0B6A0
+[2014.09.21-05.52.13:266][335]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005076B6A0
+[2014.09.21-05.52.13:673][336]Cmd: QUIT_EDITOR
+[2014.09.21-05.52.13:822][336]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.09.21-05.52.13:823][336]LogExit: Preparing to exit.
+[2014.09.21-05.52.14:799][336]LogExit: Editor shut down
+[2014.09.21-05.52.14:799][336]LogExit: Transaction tracking system shut down
+[2014.09.21-05.52.14:800][336]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D8951C0
+[2014.09.21-05.52.14:800][336]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D897EC0
+[2014.09.21-05.52.14:800][336]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000ADD00E0
+[2014.09.21-05.52.14:800][336]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ECC5EE0
+[2014.09.21-05.52.14:823][336]LogExit: Object subsystem successfully closed.
+[2014.09.21-05.52.14:843][336]LogModuleManager: Shutting down and abandoning module Merge (162)
+[2014.09.21-05.52.14:843][336]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2014.09.21-05.52.14:843][336]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.09.21-05.52.14:843][336]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2014.09.21-05.52.14:843][336]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2014.09.21-05.52.14:849][336]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.09.21-05.52.14:849][336]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.09.21-05.52.14:849][336]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.09.21-05.52.14:853][336]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.09.21-05.52.14:854][336]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.09.21-05.52.14:959][336]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.09.21-05.52.14:959][336]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.09.21-05.52.14:959][336]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.09.21-05.52.14:959][336]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.09.21-05.52.14:959][336]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.09.21-05.52.14:959][336]LogModuleManager: Shutting down and abandoning module Sequencer (108)
+[2014.09.21-05.52.14:959][336]LogModuleManager: Shutting down and abandoning module MovieSceneTools (107)
+[2014.09.21-05.52.14:959][336]LogModuleManager: Shutting down and abandoning module OutputLog (106)
+[2014.09.21-05.52.14:959][336]LogModuleManager: Shutting down and abandoning module GammaUI (105)
+[2014.09.21-05.52.14:959][336]LogModuleManager: Shutting down and abandoning module Documentation (104)
+[2014.09.21-05.52.14:959][336]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2014.09.21-05.52.14:959][336]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2014.09.21-05.52.14:959][336]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2014.09.21-05.52.14:959][336]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2014.09.21-05.52.14:960][336]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2014.09.21-05.52.14:960][336]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.09.21-05.52.14:960][336]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2014.09.21-05.52.14:998][336]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2014.09.21-05.52.14:998][336]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2014.09.21-05.52.14:998][336]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2014.09.21-05.52.14:998][336]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2014.09.21-05.52.14:998][336]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2014.09.21-05.52.14:998][336]LogModuleManager: Shutting down and abandoning module MessagingDebugger (91)
+[2014.09.21-05.52.14:998][336]LogModuleManager: Shutting down and abandoning module ViewportSnapping (90)
+[2014.09.21-05.52.14:998][336]LogModuleManager: Shutting down and abandoning module SmartSnapping (89)
+[2014.09.21-05.52.14:998][336]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (88)
+[2014.09.21-05.52.14:998][336]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (87)
+[2014.09.21-05.52.14:998][336]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (86)
+[2014.09.21-05.52.14:998][336]LogModuleManager: Shutting down and abandoning module Matinee (85)
+[2014.09.21-05.52.14:998][336]LogModuleManager: Shutting down and abandoning module Kismet (84)
+[2014.09.21-05.52.14:998][336]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2014.09.21-05.52.14:998][336]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
+[2014.09.21-05.52.15:000][336]LogModuleManager: Shutting down and abandoning module IntroTutorials (81)
+[2014.09.21-05.52.15:000][336]LogModuleManager: Shutting down and abandoning module ContentBrowser (80)
+[2014.09.21-05.52.15:000][336]LogModuleManager: Shutting down and abandoning module PropertyEditor (79)
+[2014.09.21-05.52.15:000][336]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2014.09.21-05.52.15:000][336]LogModuleManager: Shutting down and abandoning module Paper2DEditor (77)
+[2014.09.21-05.52.15:000][336]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (76)
+[2014.09.21-05.52.15:000][336]LogModuleManager: Shutting down and abandoning module PluginsEditor (75)
+[2014.09.21-05.52.15:000][336]LogModuleManager: Shutting down and abandoning module MainFrame (74)
+[2014.09.21-05.52.15:000][336]LogModuleManager: Shutting down and abandoning module EpicSurvey (73)
+[2014.09.21-05.52.15:000][336]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (72)
+[2014.09.21-05.52.15:001][336]LogModuleManager: Shutting down and abandoning module UObjectPlugin (71)
+[2014.09.21-05.52.15:001][336]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (70)
+[2014.09.21-05.52.15:001][336]LogModuleManager: Shutting down and abandoning module SourceControl (69)
+[2014.09.21-05.52.15:001][336]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (68)
+[2014.09.21-05.52.15:001][336]LogModuleManager: Shutting down and abandoning module BlankPlugin (67)
+[2014.09.21-05.52.15:001][336]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2014.09.21-05.52.15:001][336]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2014.09.21-05.52.15:101][336]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2014.09.21-05.52.15:101][336]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2014.09.21-05.52.15:105][336]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2014.09.21-05.52.15:106][336]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2014.09.21-05.52.15:106][336]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2014.09.21-05.52.15:106][336]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2014.09.21-05.52.15:106][336]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2014.09.21-05.52.15:106][336]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2014.09.21-05.52.15:106][336]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.09.21-05.52.15:106][336]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.09.21-05.52.15:106][336]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.09.21-05.52.15:106][336]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.09.21-05.52.15:109][336]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.09.21-05.52.15:109][336]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.09.21-05.52.15:109][336]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.09.21-05.52.15:109][336]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.09.21-05.52.15:109][336]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.09.21-05.52.15:109][336]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.09.21-05.52.15:109][336]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.09.21-05.52.15:109][336]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.09.21-05.52.15:109][336]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.09.21-05.52.15:109][336]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.09.21-05.52.15:207][336]LogDerivedDataCache: Shutdown
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.09.21-05.52.15:207][336]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.09.21-05.52.15:208][336]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.09.21-05.52.15:208][336]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.09.21-05.52.15:208][336]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.09.21-05.52.15:208][336]LogExit: Exiting.
+[2014.09.21-05.52.15:218][336]Log file closed, 09/20/14 23:52:15
